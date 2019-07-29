@@ -88,3 +88,121 @@ Rho Hyun Woo
 >>> coffee = 5600 # 커피의 가격
 >>> juice = 6100 # 쥬스의 가격
 >>> 
+
+## chapter 2
+
+>>> my_list1=[]
+>>> print(my_list1)
+[]
+>>> my_list2=[1,-2,[3.14]]
+>>> print(my_list2)
+[1, -2, [3.14]]
+>>> my_list3=['alice',1,3.14]
+>>> print(my_list3)
+['alice', 1, 3.14]
+>>> list=[]
+>>> list.append('clover1')
+>>> print(list)
+['clover1']
+>>> list.append('heart2')
+>>> print(list)
+['clover1', 'heart2']
+>>> list.append('kakao')
+>>> print(list)
+['clover1', 'heart2', 'kakao']
+>>> ###
+>>> 
+>>> clovers=['clover1','heart1','heart2']
+>>> print(clovers[1])
+heart1
+>>> clover[1]='heart2'
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    clover[1]='heart2'
+NameError: name 'clover' is not defined
+>>> clovers[1]='heart2'
+>>> print(clovers[1])
+heart2
+>>> print(clovers[2])
+heart2
+>>> clovers[2]='클로버'
+>>> print(clovers[2])
+클로버
+>>> 
+>>> clvoers=['클로버','클로버2','클로버3']
+>>> print(clovers[0])
+clover1
+>>> del clovers[0]
+>>> print(clovers)
+['heart2', '클로버']
+>>> print(clvoers[0])
+클로버
+>>> del clvoers[0]
+>>> print(clvoers)
+['클로버2', '클로버3']
+>>> 
+>>> candies=['딸기맛','수박맛','박하맛','포도맛']
+>>> print(candies)
+['딸기맛', '수박맛', '박하맛', '포도맛']
+>>> print(candies[0])
+딸기맛
+>>> del candies[2]
+>>> print(candies)
+['딸기맛', '수박맛', '포도맛']
+>>> candies.append('콜라맛')
+>>> candies.append('홍삼맛')
+>>> print(candies)
+['딸기맛', '수박맛', '포도맛', '콜라맛', '홍삼맛']
+>>> ['clover1', 'heart2', 'kakao']
+['clover1', 'heart2', 'kakao']
+>>> week=['월','화','수','목','금']
+>>> print(week[2:4})
+SyntaxError: invalid syntax
+>>> print(week[2:5])
+['수', '목', '금']
+>>> print(week)
+['월', '화', '수', '목', '금']
+>>> print(week[0:6])
+['월', '화', '수', '목', '금']
+>>> 
+>>> candies=['딸기맛','수박맛','레몬맛','우유맛','콜라맛','포도맛']
+>>> cat_candy=candies[0]
+>>> print('채셔 고양이에게', cat_candy, '을 주세요')
+채셔 고양이에게 딸기맛 을 주세요
+>>> print('채셔고양이에게', cat_candy, '사탕을 주세요')
+채셔고양이에게 딸기맛 사탕을 주세요
+>>> duck_candy=candies[2]
+>>> print('오리에게', duck_candy, '사탕을 주세요')
+오리에게 레몬맛 사탕을 주세요
+>>> dodo_candies=candies[3:6]
+>>> print('도도새에게', dodo_candies, '사탕을 주세요')
+도도새에게 ['우유맛', '콜라맛', '포도맛'] 사탕을 주세요
+>>> animals=['도도새','참새','오리새']
+>>> animals.sort()
+>>> print(animals)
+['도도새', '오리새', '참새']
+>>> 순서=['가','나','라','하']
+>>> 순서.sort()
+>>> print(순서)
+['가', '나', '라', '하']
+>>> 순서=['나','라','가','하','다']
+>>> 순서.sort()
+>>> print(순서)
+['가', '나', '다', '라', '하']
+>>> number=[1,2,3,1,1,2,2,3]
+>>> print(number,count(2))
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    print(number,count(2))
+NameError: name 'count' is not defined
+>>> print(number.count(2))
+3
+>>> print(number.count(30)
+print(number.count(3))
+      
+SyntaxError: invalid syntax
+>>> print(number.count(3))
+2
+>>> print(number.count(1))
+3
+>>> 
